@@ -1,0 +1,11 @@
+body {
+  background-image: radial-gradient(yellow, orange, red, black);
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  background-color: blue;
+  background-image: linear-gradient(green, blue);
+}
