@@ -61,4 +61,20 @@ img {vertical-align: middle;}
   from {opacity: .4}
   to {opacity: 1}
 }
-@media only screen and (max-width: 300px)
+@media only screen and (max-width: 300px) {
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+td, th {
+  border: 1px solid green;
+  text-align: left;
+  padding: 8px;
+  color: black;
+}
+tr:nth-child(odd) {
+  background-color: orange;
+}
