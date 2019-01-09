@@ -26,6 +26,12 @@ a {
   target-name:new;
   target-new:tab;
 }
+a:link {
+  color: green;
+}
+a:hover {
+  color: orange;
+}
 
 h1 {
   color: red;
