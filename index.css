@@ -22,6 +22,10 @@ body {
   background-color: orange;
   color: red;
 }
+a {
+  target-name:new;
+  target-new:tab;
+}
 
 h1 {
   color: red;
