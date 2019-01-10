@@ -27,10 +27,15 @@ a {
   target-new:tab;
 }
 .footernav a:link {
-  color: green;
+  color: orange;
 }
 .footernav a:hover {
-  color: orange;
+  color: red;
+}
+.footer {
+  background-image: linear-gradient(green, blue);
+  text-align: center;
+  padding: 14px 16px;
 }
 
 h1 {
