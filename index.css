@@ -22,17 +22,14 @@ body {
   background-color: orange;
   color: red;
 }
-a {
-  target-name:new;
-  target-new:tab;
-}
-.footernav a:link {
+
+ a:link {
   color: orange;
 }
-.footernav a:hover {
+ a:hover {
   color: red;
 }
-.footer {
+ footer {
   background-image: linear-gradient(green, blue);
   text-align: center;
   padding: 14px 16px;
