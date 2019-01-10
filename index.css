@@ -26,10 +26,10 @@ a {
   target-name:new;
   target-new:tab;
 }
-a:link {
+.footernav a:link {
   color: green;
 }
-a:hover {
+.footernav a:hover {
   color: orange;
 }
 
