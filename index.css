@@ -1,0 +1,31 @@
+body {
+  background-image: radial-gradient(yellow, orange, red, black);
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  background-image: linear-gradient(green, blue);
+  font-size: 50px;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: blue;
+  color: red;
+}
+.topnav a.active {
+  background-color: orange;
+  color: red;
+}
