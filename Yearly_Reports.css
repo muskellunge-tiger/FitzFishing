@@ -29,3 +29,15 @@ h1 {
   background-color: orange;
   color: red;
 }
+
+.footernav a:link {
+ color: orange;
+}
+.footernav a:hover {
+ color: red;
+}
+footer {
+ background-image: linear-gradient(green, blue);
+ text-align: center;
+ padding: 14px 16px;
+}
