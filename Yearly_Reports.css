@@ -52,3 +52,17 @@ h2 {
   text-align: center;
   font-size: 35px;
 }
+
+.year_2018 a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.year_2018 a:hover {
+  background-color: blue;
+  color: red;
+}
