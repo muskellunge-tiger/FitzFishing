@@ -1,0 +1,27 @@
+body {
+  background-image: radial-gradient(yellow, orange, red, black);
+}
+
+.footernav a:link {
+ color: orange;
+}
+.footernav a:hover {
+ color: red;
+}
+footer {
+ background-image: linear-gradient(green, blue);
+ text-align: center;
+ padding: 14px 16px;
+}
+
+h1 {
+ color: red;
+ text-align: center;
+ font-size: 70px;
+ background-image: linear-gradient(green, blue);
+}
+
+p{
+ text-indent: 50px;
+ font-size: 20px;
+}
