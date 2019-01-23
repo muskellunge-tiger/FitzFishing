@@ -38,7 +38,7 @@ body {
 h1 {
   color: red;
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   background-image: linear-gradient(green, blue);
 }
 
@@ -49,6 +49,8 @@ p{
 
 h2 {
   color: blue;
+  text-align: center;
+  font-size: 35px;
 }
 table {
   border-collapse: collapse;
