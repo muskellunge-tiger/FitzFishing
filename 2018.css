@@ -21,6 +21,11 @@ h1 {
  background-image: linear-gradient(green, blue);
 }
 
+h2 {
+  text-align: center;
+  color: blue;
+}
+
 p{
  text-indent: 50px;
  font-size: 20px;
