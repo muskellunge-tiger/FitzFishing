@@ -50,3 +50,14 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
 
 }
+
+table {
+  border-collapse: collapse;
+  width: 40%;
+}
+td, th {
+  border: 1px solid green;
+  text-align: center;
+  padding: 8px;
+  color: black;
+}
