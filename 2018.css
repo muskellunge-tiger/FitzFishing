@@ -42,6 +42,27 @@ p{
  font-size: 20px;
 }
 
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+    background-color: blue;
+    color: red;
+}
+.topnav a.active {
+  background-color: orange;
+  color: red;
+}
+
 * {box-sizing: border-box;}
 .Top 9 Biggest Fish {display: none;}
 img {vertical-align: middle;}
