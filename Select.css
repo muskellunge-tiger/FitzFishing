@@ -154,3 +154,20 @@ h1 {
   background-color: blue;
   color: red;
 }
+
+.lakes_pineview a {
+  float: left;
+  background-color: black;
+  color: green;
+  text-align: center;
+  padding: 34px 36px;
+  text-decoration: none;
+  font-size: 40px;
+  float: none;
+  transform: (-50%, -50%);
+}
+
+.lakes_pineview a:hover {
+  background-color: blue;
+  color: red;
+}
