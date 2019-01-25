@@ -21,7 +21,7 @@ h1 {
  background-image: linear-gradient(green, blue);
 }
 
-.lakes_adam a {
+.lakes_adams a {
   float: left;
   background-color: black;
   color: green;
@@ -36,7 +36,7 @@ h1 {
   color: red;
 }
 
-.lakes_2018-2 a {
+.lakes_east-canyon a {
   float: left;
   background-color: black;
   color: green;
@@ -46,7 +46,7 @@ h1 {
   font-size: 40px;
 }
 
-.lakes_2018-2 a:hover {
+.lakes_east-canyon a:hover {
   background-color: blue;
   color: red;
 }
