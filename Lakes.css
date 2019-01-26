@@ -20,3 +20,17 @@ h1 {
  font-size: 70px;
  background-image: radial-gradient(yellow, orange, red, black);
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid green;
+  text-align: center;
+  padding: 8px;
+  color: black;
+}
+tr:nth-child(odd) {
+  background-color: orange;
+}
