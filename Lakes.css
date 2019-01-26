@@ -29,8 +29,11 @@ td, th {
   border: 1px solid green;
   text-align: center;
   padding: 8px;
-  color: black;
+  color: white;
 }
 tr:nth-child(odd) {
-  background-color: orange;
+  background-color: black;
+}
+tr:nth-child(even) {
+  background-color: grey;
 }
