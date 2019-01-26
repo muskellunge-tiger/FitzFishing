@@ -37,3 +37,14 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
   background-color: grey;
 }
+
+.total_adams_2018 table {
+  border-collapse: collapse;
+  width: 40%;
+}
+.total_adams_2018 td, th {
+  border: 1px solid green;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
