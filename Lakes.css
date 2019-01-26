@@ -21,11 +21,11 @@ h1 {
  background-image: radial-gradient(yellow, orange, red, black);
 }
 
-.data_adams_2018 table {
+.lake_data_2018 table {
   border-collapse: collapse;
   width: 100%;
 }
-.data_adams_2018 td, th {
+.lake_data_2018 td, th {
   border: 1px solid green;
   text-align: center;
   padding: 8px;
