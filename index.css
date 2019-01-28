@@ -89,3 +89,20 @@ td, th {
 tr:nth-child(odd) {
   background-color: orange;
 }
+
+.overall_stats table {
+  border-collapse: collapse;
+  width: 40%;
+}
+.overall_stats td, th {
+  border: 1px solid green;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
+.overall_stats tr:nth-child(odd) {
+  background-color: grey;
+}
+.overall_stats tr:nth-child(even) {
+  background-color: black;
+}
