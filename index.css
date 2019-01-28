@@ -51,6 +51,10 @@ h2 {
   color: blue;
 }
 
+h5 {
+  font-size: 20px;
+}
+
 * {box-sizing: border-box;}
 .All-Time Biggest Fish {display: none;}
 img {vertical-align: middle;}
