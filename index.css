@@ -92,7 +92,7 @@ tr:nth-child(odd) {
 
 .overall_stats table {
   border-collapse: collapse;
-  width: 40%;
+  width: 100%;
 }
 .overall_stats td, th {
   border: 1px solid green;
