@@ -101,8 +101,8 @@ tr:nth-child(odd) {
   color: white;
 }
 .overall_stats tr:nth-child(odd) {
-  background-color: grey;
+  background-color: black;
 }
 .overall_stats tr:nth-child(even) {
-  background-color: black;
+  background-color: grey;
 }
