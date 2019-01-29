@@ -1,5 +1,6 @@
 body {
   background-image: radial-gradient(limegreen, green, blue);
+  color: white;
 }
 
 .footernav a:link {
@@ -30,6 +31,11 @@ h2 {
 h3 {
   color: red;
   font-size: 35px;
+}
+
+p {
+  text-indent: 50px;
+  font-size: 20px;
 }
 
 .lake_data_2018 table {
