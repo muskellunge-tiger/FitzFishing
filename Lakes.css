@@ -10,7 +10,7 @@ body {
  color: red;
 }
 footer {
- background-image: radial-gradient(green, blue);
+ background-image: linear-gradient(green, blue);
  text-align: center;
  padding: 14px 16px;
 }
