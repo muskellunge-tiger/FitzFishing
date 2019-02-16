@@ -21,6 +21,11 @@ h1 {
  background-image: linear-gradient(green, blue);
 }
 
+p {
+  text-indent: 50px;
+  font-size: 20px;
+}
+
 .lakes_adams a {
   float: left;
   background-color: black;
