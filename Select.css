@@ -232,3 +232,18 @@ h1 {
   background-color: blue;
   color: red;
 }
+
+.jensen_past a {
+  float: left;
+  background-color: black;
+  color: green;
+  text-align: center;
+  padding: 34px 36px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.jensen_past a:hover {
+  background-color: blue;
+  color: red;
+}
