@@ -23,12 +23,6 @@ body {
   color: red;
 }
 
- .footernav a:link {
-  color: white;
-}
- .footernav a:hover {
-  color: red;
-}
  footer {
   background-image: linear-gradient(green, blue);
   text-align: center;
