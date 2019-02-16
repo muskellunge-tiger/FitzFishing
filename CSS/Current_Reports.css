@@ -51,7 +51,10 @@ p {
 }
 
 .footernav a:link {
- color: orange;
+ color: white;
+}
+.footernav a:visited {
+  color: orange;
 }
 .footernav a:hover {
  color: red;
