@@ -57,3 +57,18 @@ footer {
  text-align: center;
  padding: 14px 16px;
 }
+
+.jensen_past a {
+  float: left;
+  background-color: black;
+  color: green;
+  text-align: center;
+  padding: 34px 36px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.jensen_past a:hover {
+  background-color: blue;
+  color: red;
+}
