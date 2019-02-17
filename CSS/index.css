@@ -119,3 +119,10 @@ tr:nth-child(odd) {
 .overall_stats tr:nth-child(even) {
   background-color: grey;
 }
+
+.muskie_img {
+  float: none;
+  top: 25%;
+  left: 17%;
+  position: absolute;
+}
