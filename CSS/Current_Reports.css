@@ -65,7 +65,7 @@ footer {
  padding: 14px 16px;
 }
 
-.jensen_past a {
+.report_past a {
   float: left;
   background-color: black;
   color: green;
@@ -75,7 +75,7 @@ footer {
   font-size: 40px;
 }
 
-.jensen_past a:hover {
+.report_past a:hover {
   background-color: blue;
   color: red;
 }
