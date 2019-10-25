@@ -112,13 +112,20 @@ tr:nth-child(odd) {
   justify-content: center;
   align-items: center;
   width: 1888px;
-  font-size: 26pt;
 }
 
 #biggest_fish_head {
   text-align: center;
+  font-size: 26pt;
   color: black;
   width: 943px;
+}
+
+#biggest_fish_data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1888px;
 }
 
 .overall_stats table {
