@@ -72,6 +72,10 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
+
+.dots {
+  text-align: center;
+}
 .dot {
   height: 15px;
   width: 15px;
