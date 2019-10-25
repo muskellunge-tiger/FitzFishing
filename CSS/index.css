@@ -23,22 +23,6 @@ body {
   color: red;
 }
 
- .footernav a:link {
-  color: white;
-}
-.footernav a:visited {
-  color: orange;
-}
- .footernav a:hover {
-  color: red;
-}
-
- footer {
-  background-image: linear-gradient(green, blue);
-  text-align: center;
-  padding: 14px 16px;
-}
-
 h1 {
   color: red;
   text-align: center;
@@ -157,4 +141,25 @@ tr:nth-child(odd) {
 }
 .overall_stats tr:nth-child(even) {
   background-color: grey;
+}
+
+#my_name {
+  font-size: 22pt;
+  color: black;
+}
+
+.footernav a:link {
+ color: white;
+}
+.footernav a:visited {
+ color: orange;
+}
+.footernav a:hover {
+ color: red;
+}
+
+footer {
+ background-image: linear-gradient(green, blue);
+ text-align: center;
+ padding: 14px 16px;
 }
