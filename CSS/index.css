@@ -107,25 +107,34 @@ tr:nth-child(odd) {
   background-color: orange;
 }
 
-#biggest_fish {
+.home_tables {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1888px;
 }
 
-#biggest_fish_head {
+.home_tables_head {
   text-align: center;
   font-size: 26pt;
   color: black;
   width: 943px;
 }
 
-#biggest_fish_data{
+.home_tables_header {
+  color: black;
+  font-size: 16pt;
+}
+
+.home_tables_content {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 1888px;
+  font-size: 14pt;
+}
+
+.home_tables_data {
+  text-align: center;
 }
 
 .overall_stats table {
