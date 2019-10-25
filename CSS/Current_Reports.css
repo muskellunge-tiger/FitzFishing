@@ -50,6 +50,11 @@ p {
   color: red;
 }
 
+#my_name {
+  font-size: 22pt;
+  color: black;
+}
+
 .footernav a:link {
  color: white;
 }

@@ -2,6 +2,11 @@ body {
   background-image: radial-gradient(orange, red, black);
 }
 
+#my_name {
+  font-size: 22pt;
+  color: black;
+}
+
 .footernav a:link {
  color: white;
 }
