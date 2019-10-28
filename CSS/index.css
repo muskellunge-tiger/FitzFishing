@@ -4,7 +4,7 @@ body {
 
 .topnav {
   background-color: black;
-  overflow: hidden;
+  display: flex;
 }
 .topnav a {
   float: left;
@@ -23,6 +23,12 @@ body {
   color: red;
 }
 
+@media screen and (max-width: 500px) {
+  .topnav {
+    flex-direction: column;
+  }
+}
+
 h1 {
   color: red;
   text-align: center;
@@ -31,15 +37,38 @@ h1 {
   font-family: 'Libre Baskerville', serif;
 }
 
+h2 {
+  color: red;
+  text-align: center;
+  font-size: 60px;
+  background-image: linear-gradient(green, blue);
+  font-family: 'Libre Baskerville', serif;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 40px;
+    max-width: 500px;
+  }
+}
+
 p{
   text-indent: 50px;
   font-size: 20px;
   font-family: 'Quicksand', sans-serif;
 }
 
-h2 {
+h3 {
   color: blue;
   font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
 }
 
 h5 {
