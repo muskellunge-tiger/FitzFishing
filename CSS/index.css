@@ -179,12 +179,17 @@ tr:nth-child(odd) {
   text-align: center;
   padding: 8px;
   color: white;
+  font-size: 18px;
 }
 .overall_stats tr:nth-child(odd) {
   background-color: black;
 }
 .overall_stats tr:nth-child(even) {
   background-color: grey;
+}
+
+.overall_table_heads {
+  font-size: 30px;
 }
 
 #my_name {
