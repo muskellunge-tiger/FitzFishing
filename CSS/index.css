@@ -178,3 +178,9 @@ footer {
  text-align: center;
  padding: 14px 16px;
 }
+
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
+}
