@@ -101,7 +101,7 @@ tr:nth-child(odd) {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1888px;
+  max-width: 100%;
 }
 
 .home_tables_head {
@@ -119,12 +119,18 @@ tr:nth-child(odd) {
 .home_tables_content {
   display: flex;
   justify-content: center;
-  width: 1888px;
+  width: 100%;
   font-size: 14pt;
 }
 
 .home_tables_data {
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .home_tables, .home_tables_content {
+      max-width: 80%;
+    }
 }
 
 .overall_stats table {
