@@ -181,6 +181,12 @@ tr:nth-child(odd) {
   color: white;
   font-size: 18px;
 }
+
+.overall_stats {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
 .overall_stats tr:nth-child(odd) {
   background-color: black;
 }
@@ -190,6 +196,13 @@ tr:nth-child(odd) {
 
 .overall_table_heads {
   font-size: 30px;
+}
+
+@media (max-width: 500px) {
+  .overall_stats {
+    max-width: 75%;
+    flex-wrap: wrap;
+  }
 }
 
 #my_name {
