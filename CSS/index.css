@@ -182,11 +182,6 @@ tr:nth-child(odd) {
   font-size: 18px;
 }
 
-.overall_stats {
-  display: flex;
-  max-width: 100%;
-  flex-wrap: wrap;
-}
 .overall_stats tr:nth-child(odd) {
   background-color: black;
 }
