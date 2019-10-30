@@ -111,3 +111,9 @@ tr:nth-child(even) {
     display: none;
   }
 }
+
+@media (max-width: 800px) {
+  #year_img {
+    display: none;
+  }
+}
