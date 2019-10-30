@@ -128,8 +128,18 @@ tr:nth-child(even) {
   background-color: grey;
 }
 
+.year_table_heads {
+  font-size: 28px;
+}
+
 @media (max-width: 500px) {
   #jasons_muskie {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  table {
     display: none;
   }
 }
