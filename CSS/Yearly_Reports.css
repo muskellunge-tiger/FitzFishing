@@ -9,7 +9,7 @@ body {
 
 .topnav {
   background-color: black;
-  overflow: hidden;
+  display: flex;
 }
 .topnav a {
   float: left;
@@ -77,4 +77,16 @@ h2 {
 .year_2018 a:hover {
   background-color: blue;
   color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .topnav {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
 }
