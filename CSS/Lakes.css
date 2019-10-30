@@ -90,3 +90,9 @@ tr:nth-child(even) {
   color: white;
   font-size: 17px;
 }
+
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
+}
