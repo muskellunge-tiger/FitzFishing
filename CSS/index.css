@@ -179,7 +179,6 @@ tr:nth-child(odd) {
   text-align: center;
   padding: 8px;
   color: white;
-  font-size: 18px;
 }
 
 .overall_stats tr:nth-child(odd) {
@@ -193,7 +192,7 @@ tr:nth-child(odd) {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1125px) {
   .overall_stats {
     display: none;
   }
