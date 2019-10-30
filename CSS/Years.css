@@ -127,3 +127,9 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
   background-color: grey;
 }
+
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
+}
