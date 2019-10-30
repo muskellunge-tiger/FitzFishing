@@ -31,7 +31,7 @@ p {
 
 .topnav {
   background-color: black;
-  overflow: hidden;
+  display: flex;
 }
 .topnav a {
   float: left;
@@ -85,17 +85,14 @@ footer {
   color: red;
 }
 
-.strawberry_past a {
-  float: left;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
+@media screen and (max-width: 500px) {
+  .topnav {
+    flex-direction: column;
+  }
 }
 
-.strawberry_past a:hover {
-  background-color: blue;
-  color: red;
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
 }
