@@ -194,7 +194,7 @@ tr:nth-child(odd) {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
   .overall_stats {
     display: none;
   }
