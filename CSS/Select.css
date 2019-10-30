@@ -247,3 +247,9 @@ p {
   background-color: blue;
   color: red;
 }
+
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
+}
