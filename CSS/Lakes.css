@@ -91,6 +91,21 @@ tr:nth-child(even) {
   font-size: 17px;
 }
 
+.lake_name {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.totals_text {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+}
+
+.totals_numbers {
+  font-weight: bold;
+}
+
 @media (max-width: 500px) {
   #jasons_muskie {
     display: none;
