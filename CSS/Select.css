@@ -36,220 +36,38 @@ p {
   font-family: 'Quicksand', sans-serif;
 }
 
-.lakes_adams a {
-  float: left;
-  background-color: black;
+.lakes_2018 a {
   color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-.lakes_adams a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_east-canyon a {
-  float: none;
   background-color: black;
-  color: green;
+  width: 300px;
   text-align: center;
-  padding: 34px 36px;
+  line-height: 75px;
+  font-size: 50px;
+  padding: 37.5px 34px;
   text-decoration: none;
-  font-size: 40px;
-  top: 24.75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
 }
 
-.lakes_east-canyon a:hover {
-  background-color: blue;
-  color: red;
+.lakes_2018 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.lakes_hobbs a {
-  float: none;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-  top: 24.75%;
-  left: 95%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.lakes_hobbs a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_holmes a {
-  float: left;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-.lakes_holmes a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_jensen a {
-  float: none;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-  top: 41.8%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.lakes_jensen a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_kaysville a {
-  float: none;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-  top: 41.8%;
-  left: 93.75%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.lakes_kaysville a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_kens a {
-  float: left;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-.lakes_kens a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_lost-creek a {
-  float: none;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-  top: 59.1%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.lakes_lost-creek a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_pineview a {
-  float: none;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-  top: 59.1%;
-  left: 93.9%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.lakes_pineview a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_rockport a {
-  float: left;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-.lakes_rockport a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_strawberry a {
-  float: left;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-  top: 76.2%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.lakes_strawberry a:hover {
-  background-color: blue;
-  color: red;
-}
-
-.lakes_willard a {
-  float: none;
-  background-color: black;
-  color: green;
-  text-align: center;
-  padding: 34px 36px;
-  text-decoration: none;
-  font-size: 40px;
-  top: 76.2%;
-  left: 94.6%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.lakes_willard a:hover {
+.lakes_2018 a:hover {
   background-color: blue;
   color: red;
 }
 
 @media (max-width: 500px) {
-  #jasons_muskie {
+  .lakes_2018_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  footer {
     display: none;
   }
 }
