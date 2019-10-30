@@ -113,7 +113,7 @@ tr:nth-child(even) {
 }
 
 @media (max-width: 800px) {
-  #year_img {
+  .year_img {
     display: none;
   }
 }
