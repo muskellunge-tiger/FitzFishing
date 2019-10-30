@@ -193,7 +193,7 @@ tr:nth-child(odd) {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1300px) {
   .overall_stats {
     display: none;
   }
