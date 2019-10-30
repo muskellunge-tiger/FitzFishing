@@ -48,6 +48,26 @@ h5 {
   font-size: 20px;
 }
 
+.rating_slow {
+  color: lightblue;
+}
+
+.rating_fair {
+  color: yellow;
+}
+
+.rating_average {
+  color: blue;
+}
+
+.rating_good {
+  color: green;
+}
+
+.rating_hot {
+  color: red;
+}
+
 p{
  text-indent: 50px;
  font-size: 20px;
@@ -141,5 +161,11 @@ tr:nth-child(even) {
 @media only screen and (max-width: 1125px) {
   table {
     display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .rating_hot {
+    color: black;
   }
 }
