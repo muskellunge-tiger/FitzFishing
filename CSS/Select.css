@@ -60,9 +60,10 @@ p {
 }
 
 @media (max-width: 500px) {
-  .lakes_2018 {
+  .lakes_2018_1 {
     flex-direction: column;
     align-items: center;
+  }
 }
 
 @media (max-width: 1500px) {
