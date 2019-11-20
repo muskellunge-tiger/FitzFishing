@@ -23,7 +23,7 @@ footer {
  padding: 14px 16px;
 }
 
-h1 {
+h1, #strawberry_head {
  color: blue;
  text-align: center;
  font-size: 70px;
@@ -115,5 +115,11 @@ tr:nth-child(even) {
 @media (max-width: 800px) {
   .year_img {
     display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  #strawberry_head {
+    font-size: 60px;
   }
 }
