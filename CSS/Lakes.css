@@ -120,6 +120,6 @@ tr:nth-child(even) {
 
 @media (max-width: 450px) {
   #strawberry_head {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
