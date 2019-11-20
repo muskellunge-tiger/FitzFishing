@@ -53,6 +53,7 @@ p {
   height: 500px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .lakes_2018 a:hover {
