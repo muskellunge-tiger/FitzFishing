@@ -1,0 +1,134 @@
+body {
+  background-image: radial-gradient(limegreen, green, blue);
+  color: white;
+}
+
+#my_name {
+  font-size: 22pt;
+  color: black;
+}
+
+#closure {
+  text-indent: 0;
+}
+
+#closure_bold {
+  font-size: 27px;
+  color: black;
+}
+
+.footernav a:link {
+ color: white;
+}
+.footernav a:visited {
+  color: orange;
+}
+.footernav a:hover {
+ color: red;
+}
+footer {
+ background-image: linear-gradient(green, blue);
+ text-align: center;
+ padding: 14px 16px;
+}
+
+h1, #strawberry_head {
+ color: blue;
+ text-align: center;
+ font-size: 70px;
+ background-image: radial-gradient(yellow, orange, red, black);
+ font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+  color: red;
+  font-size: 35px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+  font-size: 30px;
+  color: lightblue;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h5 {
+  font-size: 20px;
+  text-indent: 25px;
+}
+
+p {
+  text-indent: 50px;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.lake_data_2018 table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.lake_data_2018 td, th {
+  border: 1px solid green;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  font-size: 17px;
+}
+tr:nth-child(odd) {
+  background-color: black;
+}
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+ table {
+  border-collapse: collapse;
+  width: 40%;
+}
+ td, th {
+  border: 1px solid green;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  font-size: 17px;
+}
+
+.lake_name {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.totals_text {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+}
+
+.totals_numbers {
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .year_img {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  #strawberry_head {
+    font-size: 55px;
+  }
+}

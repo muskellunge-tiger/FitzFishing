@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Years.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <title>2019 Report</title>
+  </head>
+  <body>
+    <h1>2019</h1>
+    <div class="topnav">
+      <a href="Yearly_Reports.html">Yearly Reports</a>
+      <a href="Lakes_2019.html">Select Location</a>
+    </div>
+    <div class="slideshow-container">
+      <div class="Top 8 Biggest Fish">
+        <div class="fish_count"></div>
+        <img src="Biggest Fish/IMG_20190820_162717_385.jpg" style="width:1200px;height:800px;">
+      </div>
+      <div class="Top 8 Biggest Fish">
+        <div class="fish_count"></div>
+        <img src="Biggest Fish/IMG_20190821_175926_889.jpg" style="width:1200px;height:800px;">
+      </div>
+      <div class="Top 8 Biggest Fish">
+        <div class="fish_count"></div>
+        <img src="Biggest Fish/DSC04225.JPG" style="width:1200px;height:800px;">
+      </div>
+      <div class="Top 8 Biggest Fish">
+        <div class="fish_count"></div>
+        <img src="Biggest Fish/DSC04236.JPG" style="width:1200px;height:800px;">
+      </div>
+      <div class="Top 8 Biggest Fish">
+        <div class="fish_count"></div>
+        <img src="Biggest Fish/IMG_20190319_142034_094.jpg" style="width:1200px;height:800px;">
+      </div>
+      <div class="Top 8 Biggest Fish">
+        <div class="fish_count"></div>
+        <img src="Biggest Fish/IMG_20190312_162142_294.jpg" style="width:1200px;height:800px;">
+      </div>
+      <div class="Top 8 Biggest Fish">
+        <div class="fish_count"></div>
+        <img src="Biggest Fish/IMG_20190604_132832_486.jpg" style="width:1200px;height:800px;">
+      </div>
+      <div class="Top 8 Biggest Fish">
+        <div class="fish_count"></div>
+        <img src="Biggest Fish/IMG_20191103_150918_547.jpg" style="width:1200px;height:800px;">
+      </div>
+    </div>
+    <div class="dots">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <h2>General Statistics<h2>
+    <h3>Rating Breakdown</h3>
+
+  <footer>
+    <p id="my_name">Posted by: Matt Fitzgerald</p>
+    <div class="footernav">
+    <p><a href="https://wildlife.utah.gov/hotspots/">Offical Utah Fishing Report</a></p>
+    <p><a href="http://www.utahfishinginfo.com/dwr/fishstockingreport.php">Offical Utah Fish Stocking Report</a></p>
+  </div>
+    <img src="IMG_20170918_185110.jpg" style="width:250px;height:200px; align:left">
+    <img id="jasons_muskie" src="All-Time Biggest Fish/DSC03357.JPG" style="width:400px;height: 200px;">
+    <img src="1026171825.jpg" style="width:250px;height:200px; align:right">
+  </footer>
+  <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("Top 8 Biggest Fish");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+  </body>
+</html>
