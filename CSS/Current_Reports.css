@@ -95,6 +95,12 @@ footer {
   color: red;
 }
 
+#no_current {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
 @media screen and (max-width: 500px) {
   .topnav {
     flex-direction: column;
