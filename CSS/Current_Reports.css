@@ -95,7 +95,7 @@ footer {
   color: red;
 }
 
-#no_current {
+.no_current {
   text-align: center;
   color: white;
   font-size: 40px;
