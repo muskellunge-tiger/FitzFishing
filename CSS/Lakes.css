@@ -110,10 +110,6 @@ tr:nth-child(even) {
   text-indent: 100px;
 }
 
-.muskie_list_break {
-  text-indent: 120px;
-}
-
 #bite_color {
   color: black;
 }
