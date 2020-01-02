@@ -75,11 +75,11 @@ p {
   font-family: 'Quicksand', sans-serif;
 }
 
-.lake_data_2018 table {
+.lake_data_2018, .lake_data_2019 table {
   border-collapse: collapse;
   width: 100%;
 }
-.lake_data_2018 td, th {
+.lake_data_2018, .lake_data_2019 td, th {
   border: 1px solid green;
   text-align: center;
   padding: 8px;
