@@ -36,7 +36,7 @@ p {
   font-family: 'Quicksand', sans-serif;
 }
 
-.lakes_2018 {
+.lakes_2018, .lakes_2019 {
   width: 100%;
   height: 500px;
   display: flex;
@@ -44,10 +44,10 @@ p {
   justify-content: center;
 }
 
-.lakes_2018 a {
+.lakes_2018, .lakes_2019 a {
   color: green;
   background-color: black;
-  width: 300px;
+  width: 400px;
   text-align: center;
   line-height: 75px;
   font-size: 50px;
@@ -56,13 +56,13 @@ p {
   text-decoration: none;
 }
 
-.lakes_2018 a:hover {
+.lakes_2018, .lakes_2019 a:hover {
   background-color: blue;
   color: red;
 }
 
 @media (max-width: 500px) {
-  .lakes_2018_1 {
+  .lakes_2018_1, .lakes_2019_1 {
     flex-direction: column;
     align-items: center;
   }

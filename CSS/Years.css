@@ -20,6 +20,7 @@ footer {
  background-image: linear-gradient(green, blue);
  text-align: center;
  padding: 14px 16px;
+ font-weight: normal;
 }
 
 h1 {
@@ -31,9 +32,10 @@ h1 {
 }
 
 h2 {
+  color: red;
   text-align: center;
-  color: blue;
-  font-size: 35px;
+  font-size: 60px;
+  background-image: linear-gradient(green, blue);
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -46,6 +48,7 @@ h3 {
 
 h5 {
   font-size: 20px;
+  color: limegreen;
 }
 
 .rating_slow {
@@ -96,7 +99,7 @@ p{
 }
 
 * {box-sizing: border-box;}
-.Top 9 Biggest Fish {display: none;}
+.Top Biggest Fish {display: none;}
 img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1300px;
