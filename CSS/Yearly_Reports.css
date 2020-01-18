@@ -64,7 +64,7 @@ h2 {
   font-family: 'Libre Baskerville', serif;
 }
 
-.year_2018 a {
+.years a {
   color: green;
   background-color: black;
   width: 150px;
@@ -76,14 +76,14 @@ h2 {
   text-decoration: none;
 }
 
-.year_2018 {
+.years {
   width: 100%;
   height: 100px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.year_2018 a:hover {
+.years a:hover {
   background-color: blue;
   color: red;
 }
@@ -95,15 +95,14 @@ h2 {
 }
 
 @media (max-width: 500px) {
-  #jasons_muskie {
+  footer {
     display: none;
   }
 }
 
 @media (max-width: 500px) {
-  .year_2018 {
+  .years_1 {
     flex-direction: column;
     align-items: center;
-    padding: 0px;
   }
 }
