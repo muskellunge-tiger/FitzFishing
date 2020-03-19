@@ -25,52 +25,52 @@
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/DSC02292.JPG" style="width:1200px;height:700px">
+      <img src="Images/DSC02292.JPG" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/DSC02924.JPG" style="width:1200px;height:700px">
+      <img src="Images/DSC02924.JPG" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/Muskie6[1].jpg" style="width:1200px;height:700px">
+      <img src="Images/Muskie6[1].jpg" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/DSC03406.JPG" style="width:1200px;height:700px">
+      <img src="Images/DSC03406.JPG" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/DSC04198.JPG" style="width:1200px;height:700px">
+      <img src="Images/DSC04198.JPG" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/tiger muskie1.jpg" style="width:1200px;height:700px">
+      <img src="Images/tiger muskie1.jpg" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/DSC04201.JPG" style="width:1200px;height:700px">
+      <img src="Images/DSC04201.JPG" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/DSC02088.JPG" style="width:1200px;height:700px">
+      <img src="Images/DSC02088.JPG" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/DSC02467.JPG" style="width:1200px;height:700px">
+      <img src="Images/DSC02467.JPG" style="width:1200px;height:700px">
     </div>
 
     <div class="All-Time Biggest Fish">
       <div class="fish_count"></div>
-      <img src="All-Time Biggest Fish/DSC04225.JPG" style="width:1200px;height:700px">
+      <img src="Images/DSC04225.JPG" style="width:1200px;height:700px">
     </div>
   </div>
 
@@ -86,5 +86,27 @@
     <span class="dot"></span>
     <span class="dot"></span>
   </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("All-Time Biggest Fish");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000);
+    }
+  </script>
 </body>
 </html>

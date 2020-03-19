@@ -1,3 +1,7 @@
+body {
+  background-image: radial-gradient(white, blue, green);
+}
+
 h1 {
   text-align: center;
   font-size: 70px;
@@ -37,4 +41,42 @@ h1 {
 
 .topnav-right {
   float: right;
+}
+
+* {box-sizing: border-box;}
+.All-Time Biggest Fish {display: none;}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1200px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+.dots {
+  text-align: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .slideshow-container {
+      max-width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .slideshow-container, .dots {
+      display: none;
+    }
 }
