@@ -1,17 +1,40 @@
 h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 70px;
   background-image: radial-gradient(orange, red, black);
   margin: 0;
   padding: 0;
 }
 
-.top_nav {
-  display: flex;
-  background-color: black;
-}
-
 .nav_logo {
   margin: 0;
   padding: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: red;
+}
+
+.topnav-right {
+  float: right;
 }
