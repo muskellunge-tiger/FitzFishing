@@ -81,6 +81,55 @@ img {vertical-align: middle;}
   background-color: white;
 }
 
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+td, th {
+  border: 1px solid green;
+  text-align: left;
+  padding: 8px;
+  color: black;
+}
+tr:nth-child(odd) {
+  background-color: orange;
+}
+
+tr:nth-child(even) {
+  background-color: red;
+}
+
+.home_tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.home_tables_head {
+  text-align: center;
+  font-size: 26pt;
+  color: black;
+  width: 943px;
+}
+
+.home_tables_header {
+  text-align: center;
+  color: black;
+  font-size: 16pt;
+}
+
+.home_tables_content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 14pt;
+}
+
+.home_tables_data {
+  text-align: center;
+}
+
 @media only screen and (max-width: 1200px) {
     .slideshow-container {
       max-width: 1100px;

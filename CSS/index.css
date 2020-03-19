@@ -148,6 +148,7 @@ tr:nth-child(odd) {
 }
 
 .home_tables_header {
+  text-align: center;
   color: black;
   font-size: 16pt;
 }
