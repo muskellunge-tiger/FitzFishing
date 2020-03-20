@@ -29,6 +29,11 @@ h3 {
   font-size: 28px;
 }
 
+h4 {
+  font-size: 22px;
+  color: orange;
+}
+
 p {
   text-indent: 50px;
   font-size: 20px;
