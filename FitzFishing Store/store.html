@@ -34,7 +34,7 @@ and sometimes larger more tentative fish to have a better chance of hooking up.
   <form>
     <div class="select">
       <h3>Size/Weight Select</h3>
-      <select>
+      <select required>
         <option value="0">Select Size/Weight</option>
         <option value="175">1/32 oz.</option>
         <option value="199">1/16 oz.</option>
@@ -47,23 +47,23 @@ and sometimes larger more tentative fish to have a better chance of hooking up.
       </select>
       <hr>
       <h3>Color Select</h3>
-      <select>
+      <select required>
         <option value="0">Select Color</option>
-        <option value="1">Chartuese</option>
-        <option value="2">Black</option>
-        <option value="3">Gold</option>
-        <option value="4">White</option>
-        <option value="5">Light Blue</option>
-        <option value="6">Orange</option>
-        <option value="7">Pink</option>
-        <option value="8">Red</option>
-        <option value="9">Silver</option>
-        <option value="10">White Pearl</option>
-        <option value="11">Yellow</option>
+        <option class="chartuese" value="1">Chartuese</option>
+        <option class="black" value="2">Black</option>
+        <option class="gold" value="3">Gold</option>
+        <option class="white" value="4">White</option>
+        <option class="light_blue" value="5">Light Blue</option>
+        <option class="orange" value="6">Orange</option>
+        <option class="pink" value="7">Pink</option>
+        <option class="red" value="8">Red</option>
+        <option class="silver" value="9">Silver</option>
+        <option class="white_pearl" value="10">White Pearl</option>
+        <option class="yellow" value="11">Yellow</option>
       </select>
       <hr>
       <h3>Quantity Select</h3>
-      <input type="text" name="quantity" value="quantity" placeholder="Enter Quantity">
+      <input type="text" name="quantity" value="quantity" placeholder="Enter Quantity" required>
       <hr>
       <br>
       <br>

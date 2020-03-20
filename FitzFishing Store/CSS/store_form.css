@@ -23,6 +23,54 @@ option:hover {
   background-color: dodgerblue;
 }
 
+.chartuese:hover {
+  background-color: limegreen;
+}
+
+.black:hover {
+  background-color: black;
+  color: white;
+}
+
+.gold:hover {
+  background-color: gold;
+}
+
+.white:hover {
+  background-color: white;
+  color: black;
+}
+
+.light_blue:hover {
+  background-color: lightblue;
+}
+
+.orange:hover {
+  background-color: orange;
+}
+
+.pink:hover {
+  background-color: pink;
+}
+
+.red:hover {
+  background-color: red;
+}
+
+.silver:hover {
+  background-color: silver;
+}
+
+.white_pearl:hover {
+  background-color: white;
+  color: black;
+}
+
+.yellow:hover {
+  background-color: yellow;
+  color: black;
+}
+
 button {
   background-color: limegreen;
   border: none;
