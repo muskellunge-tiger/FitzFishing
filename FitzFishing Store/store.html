@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="CSS/styles.css">
   <link rel="stylesheet" href="CSS/store_form.css">
   <script>
+    function calculateOrder() {
+      return false;
+    }
+
     function getSelections() {
       var totalPrice = 0;
 
@@ -15,20 +19,20 @@
       console.log(selectedSize);
       totalPrice = totalPrice + parseInt(selectedSize);
 
-      var colorArray = document.getElementsByName('size');
-      selectedColor = colorArray[0].value;
-      console.log(selectedColor);
-      totalPrice = totalPrice + parseInt(selectedColor);
-
-      var quantityArray = document.getElementsByName('size');
+      var quantityArray = document.getElementsByName('quantity');
       selectedQuantity = quantityArray[0].value;
       console.log(selectedQuantity);
-      totalPrice = totalPrice + parseInt(selectedQuantity);
+      totalPrice = totalPrice * parseInt(selectedQuantity);
 
-      var packageArray = document.getElementsByName('size');
+      var packageArray = document.getElementsByName('package');
       selectedPackage = packageArray[0].value;
       console.log(selectedPackage);
       totalPrice = totalPrice + parseInt(selectedPackage);
+
+      totalPrice = totalPrice/100;
+      totalPrice = totalPrice.toFixed(2);
+      document.getElementById('placeOrder').innerHTML = "Total Cost: " + "$" + totalPrice;
+      console.log(totalPrice);
     }
   </script>
 </head>
@@ -49,14 +53,14 @@
   </div>
   <p>
     Welcome to the store. On this page you will be able to purchase jig heads with
-extended shanks on them. You will be able to select the size/weight, color, and
-quantity of the jig heads. There a few reasons why not only using tube jigs is
-a great option why fishing, but it is sometimes important to have an extended shank
-on them that allow the hook to go farther down the jig. This will allow smaller
-and sometimes larger more tentative fish to have a better chance of hooking up.
+    extended shanks on them. You will be able to select the size/weight, color, and
+    quantity of the jig heads. There a few reasons why not only using tube jigs is
+    a great option why fishing, but it is sometimes important to have an extended shank
+    on them that allow the hook to go farther down the jig. This will allow smaller
+    and sometimes larger more tentative fish to have a better chance of hooking up.
   </p>
 
-  <form>
+  <form onsubmit="return calculateOrder()">
     <div class="select">
       <h3>Size/Weight Select</h3>
       <select name="size" required>
@@ -90,27 +94,28 @@ and sometimes larger more tentative fish to have a better chance of hooking up.
       <h3>Package Select</h3>
       <select name="quantity" required>
         <option value="0">Select Packages</option>
-        <option value="">2</option>
-        <option value="">4</option>
-        <option value="">6</option>
-        <option value="">8</option>
-        <option value="">10</option>
-        <option value="">12</option>
-        <option value="">15</option>
-        <option value="">20</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option value="8">8</option>
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
       </select>
       <hr>
       <h3>Package Quantity</h3>
       <select name="package" required>
-        <<option value="0">Select Package Size</option>
-        <option value="4">4</option>
-        <option value="6">6</option>
+        <option value="0">Select Package Size</option>
+        <option value="199">4</option>
+        <option value="299">6</option>
       </select>
       <br>
       <br>
       <button type="submit" value="submit" onclick="getSelections()">Place Order</button>
       <div id="totalPrice"></div>
-      <div id="placeOrder"></div>
+      <div class="msg" id="placeOrder"></div>
     </div>
   </form>
   <br>
