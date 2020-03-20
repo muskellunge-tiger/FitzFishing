@@ -16,6 +16,19 @@ h2 {
   background-image: radial-gradient(orange, red, black);
 }
 
+.bottom_bouncing {
+  font-size: 55px;
+  text-align: left;
+  background-image: none;
+  color: red;
+  margin: 0;
+}
+
+h3 {
+  color: white;
+  font-size: 28px;
+}
+
 p {
   text-indent: 50px;
   font-size: 20px;
