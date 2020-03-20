@@ -6,6 +6,31 @@
   <title>Store</title>
   <link rel="stylesheet" href="CSS/styles.css">
   <link rel="stylesheet" href="CSS/store_form.css">
+  <script>
+    function getSelections() {
+      var totalPrice = 0;
+
+      var sizeArray = document.getElementsByName('size');
+      selectedSize = sizeArray[0].value;
+      console.log(selectedSize);
+      totalPrice = totalPrice + parseInt(selectedSize);
+
+      var colorArray = document.getElementsByName('size');
+      selectedColor = colorArray[0].value;
+      console.log(selectedColor);
+      totalPrice = totalPrice + parseInt(selectedColor);
+
+      var quantityArray = document.getElementsByName('size');
+      selectedQuantity = quantityArray[0].value;
+      console.log(selectedQuantity);
+      totalPrice = totalPrice + parseInt(selectedQuantity);
+
+      var packageArray = document.getElementsByName('size');
+      selectedPackage = packageArray[0].value;
+      console.log(selectedPackage);
+      totalPrice = totalPrice + parseInt(selectedPackage);
+    }
+  </script>
 </head>
 <body>
   <h1>Store</h1>
@@ -34,7 +59,7 @@ and sometimes larger more tentative fish to have a better chance of hooking up.
   <form>
     <div class="select">
       <h3>Size/Weight Select</h3>
-      <select required>
+      <select name="size" required>
         <option value="0">Select Size/Weight</option>
         <option value="175">1/32 oz.</option>
         <option value="199">1/16 oz.</option>
@@ -47,7 +72,7 @@ and sometimes larger more tentative fish to have a better chance of hooking up.
       </select>
       <hr>
       <h3>Color Select</h3>
-      <select required>
+      <select name="color" required>
         <option value="0">Select Color</option>
         <option class="chartuese" value="1">Chartuese</option>
         <option class="black" value="2">Black</option>
@@ -62,12 +87,30 @@ and sometimes larger more tentative fish to have a better chance of hooking up.
         <option class="yellow" value="11">Yellow</option>
       </select>
       <hr>
-      <h3>Quantity Select</h3>
-      <input type="text" name="quantity" value="quantity" placeholder="Enter Quantity" required>
+      <h3>Package Select</h3>
+      <select name="quantity" required>
+        <option value="0">Select Packages</option>
+        <option value="">2</option>
+        <option value="">4</option>
+        <option value="">6</option>
+        <option value="">8</option>
+        <option value="">10</option>
+        <option value="">12</option>
+        <option value="">15</option>
+        <option value="">20</option>
+      </select>
       <hr>
+      <h3>Package Quantity</h3>
+      <select name="package" required>
+        <<option value="0">Select Package Size</option>
+        <option value="4">4</option>
+        <option value="6">6</option>
+      </select>
       <br>
       <br>
-      <button type="submit">Place Order</button>
+      <button type="submit" value="submit" onclick="getSelections()">Place Order</button>
+      <div id="totalPrice"></div>
+      <div id="placeOrder"></div>
     </div>
   </form>
   <br>
