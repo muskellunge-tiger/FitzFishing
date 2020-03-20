@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Store</title>
   <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/store_form.css">
 </head>
 <body>
   <h1>Store</h1>
@@ -31,10 +32,42 @@ and sometimes larger more tentative fish to have a better chance of hooking up.
   </p>
 
   <form>
-    <div class="size_select">
+    <div class="select">
+      <h3>Size/Weight Select</h3>
       <select>
-        
+        <option value="0">Select Size/Weight</option>
+        <option value="175">1/32 oz.</option>
+        <option value="199">1/16 oz.</option>
+        <option value="225">1/8 oz.</option>
+        <option value="235">3/8 oz.</option>
+        <option value="250">1/4 oz.</option>
+        <option value="375">1/2 oz.</option>
+        <option value="399">3/4 oz.</option>
+        <option value="450">1 oz.</option>
       </select>
+      <hr>
+      <h3>Color Select</h3>
+      <select>
+        <option value="0">Select Color</option>
+        <option value="1">Chartuese</option>
+        <option value="2">Black</option>
+        <option value="3">Gold</option>
+        <option value="4">White</option>
+        <option value="5">Light Blue</option>
+        <option value="6">Orange</option>
+        <option value="7">Pink</option>
+        <option value="8">Red</option>
+        <option value="9">Silver</option>
+        <option value="10">White Pearl</option>
+        <option value="11">Yellow</option>
+      </select>
+      <hr>
+      <h3>Quantity Select</h3>
+      <input type="text" name="quantity" value="quantity" placeholder="Enter Quantity">
+      <hr>
+      <br>
+      <br>
+      <button type="submit">Place Order</button>
     </div>
   </form>
   <br>

@@ -1,0 +1,39 @@
+h3 {
+  color: orange;
+  margin: 10px;
+}
+
+form {
+  width: 50%;
+}
+
+.select {
+  background-color: black;
+}
+
+select, input {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border: 2px solid;
+  margin: 10px;
+}
+
+option:hover {
+  background-color: dodgerblue;
+}
+
+button {
+  background-color: limegreen;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  font-size: 24px;
+  padding: 14px 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lime;
+}
