@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  color: blue;
   text-align: center;
   font-size: 70px;
   background-image: radial-gradient(orange, red, black);
@@ -159,11 +160,16 @@ ul {
   color: white;
   font-size: 20px;
   padding: 20px;
+  width: 50%;
 }
 
 ul li {
   background: red;
   margin: 5px;
+}
+
+.reasoning {
+  width: 50%;
 }
 
 #my_name {
@@ -219,5 +225,11 @@ footer {
   }
   #species_effectiveness {
     font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ul, .reasoning {
+    width: 100%;
   }
 }
