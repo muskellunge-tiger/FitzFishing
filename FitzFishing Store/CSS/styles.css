@@ -172,6 +172,12 @@ ul li {
   width: 50%;
 }
 
+.species_img {
+  width: 525px;
+  height: 300px;
+  float: right;
+}
+
 #my_name {
   font-size: 22pt;
   color: black;
@@ -231,5 +237,11 @@ footer {
 @media screen and (max-width: 600px) {
   ul, .reasoning {
     width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .species_img {
+    display: none;
   }
 }
