@@ -14,6 +14,16 @@
     function getSelections() {
       var totalPrice = 0;
 
+      var weightArray = document.getElementsByName('weight');
+      selectedWeight = weightArray[0].value;
+      console.log(selectedWeight);
+      totalPrice = totalPrice + parseInt(selectedWeight);
+
+      var packageArray = document.getElementsByName('package');
+      selectedPackage = packageArray[0].value;
+      console.log(selectedPackage);
+      totalPrice = totalPrice + parseInt(selectedPackage);
+
       var sizeArray = document.getElementsByName('size');
       selectedSize = sizeArray[0].value;
       console.log(selectedSize);
@@ -23,11 +33,6 @@
       selectedQuantity = quantityArray[0].value;
       console.log(selectedQuantity);
       totalPrice = totalPrice * parseInt(selectedQuantity);
-
-      var packageArray = document.getElementsByName('package');
-      selectedPackage = packageArray[0].value;
-      console.log(selectedPackage);
-      totalPrice = totalPrice + parseInt(selectedPackage);
 
       totalPrice = totalPrice/100;
       totalPrice = totalPrice.toFixed(2);
@@ -62,9 +67,9 @@
 
   <form onsubmit="return calculateOrder()">
     <div class="select">
-      <h3>Size/Weight Select</h3>
-      <select name="size" required>
-        <option value="0">Select Size/Weight</option>
+      <h3>Weight Select</h3>
+      <select name="weight" required>
+        <option value="0">Select Weight</option>
         <option value="175">1/32 oz.</option>
         <option value="199">1/16 oz.</option>
         <option value="225">1/8 oz.</option>
@@ -110,6 +115,17 @@
         <option value="0">Select Package Size</option>
         <option value="199">4</option>
         <option value="299">6</option>
+      </select>
+      <hr>
+      <h3>Jig Head Size Select</h3>
+      <select name="size" required>
+        <option value="0">Select Jig Head Size</option>
+        <option value="99">2"</option>
+        <option value="150">2.5"</option>
+        <option value="199">3"</option>
+        <option value="250">3.5"</option>
+        <option value="350">4"</option>
+        <option value="450">5"</option>
       </select>
       <br>
       <br>
