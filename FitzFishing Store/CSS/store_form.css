@@ -98,4 +98,7 @@ button:hover {
   form {
     width: 100%;
   }
+  select {
+    width: 42%;
+  }
 }
