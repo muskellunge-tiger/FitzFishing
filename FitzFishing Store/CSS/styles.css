@@ -178,6 +178,11 @@ ul li {
   float: right;
 }
 
+.separtor {
+  width: 50%;
+  float: left;
+}
+
 #my_name {
   font-size: 22pt;
   color: black;
@@ -235,7 +240,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  ul, .reasoning {
+  ul, .reasoning, .separtor {
     width: 100%;
   }
 }
