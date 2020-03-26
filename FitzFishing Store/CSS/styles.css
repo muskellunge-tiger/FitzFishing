@@ -228,6 +228,9 @@ footer {
     text-indent: 0px;
     text-align: center;
   }
+  table {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
