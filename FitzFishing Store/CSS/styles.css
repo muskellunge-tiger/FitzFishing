@@ -114,14 +114,15 @@ td, th {
   border: 1px solid green;
   text-align: left;
   padding: 8px;
-  color: black;
+  color: white;
 }
+
 tr:nth-child(odd) {
-  background-color: orange;
+  background-color: black;
 }
 
 tr:nth-child(even) {
-  background-color: red;
+  background-color: grey;
 }
 
 .home_tables {
@@ -134,13 +135,11 @@ tr:nth-child(even) {
 .home_tables_head {
   text-align: center;
   font-size: 26pt;
-  color: black;
   width: 943px;
 }
 
 .home_tables_header {
   text-align: center;
-  color: black;
   font-size: 16pt;
 }
 
