@@ -11,12 +11,13 @@ form {
   background-color: black;
 }
 
-select, input {
+select {
   background-color: blue;
   color: white;
   font-size: 20px;
   border: 2px solid;
   margin: 10px;
+  width: 15%;
 }
 
 option:hover {
