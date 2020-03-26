@@ -223,6 +223,13 @@ footer {
     }
 }
 
+@media screen and (max-width: 400px) {
+  p {
+    text-indent: 0px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 500px) {
   .footer_img {
     display: none;
