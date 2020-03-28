@@ -232,6 +232,9 @@ footer {
   table {
     width: 100%;
   }
+  video {
+    width: 49%;
+  }
 }
 
 @media (max-width: 500px) {
