@@ -1,5 +1,6 @@
 body {
   background-color: darkblue;
+  color: white;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 }
 
 h2 {
+  color: blue;
   text-align: center;
   font-size: 55px;
   background-image: radial-gradient(orange, red, black);
