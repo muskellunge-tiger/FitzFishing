@@ -184,6 +184,50 @@ ul li {
   float: left;
 }
 
+.method_sections {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+}
+
+.jump_to {
+  float: right;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.jump_to_options {
+  display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+.jump_to_options a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.jump_to_options a:hover {
+  background-color: limegreen;
+}
+
+.jump_to:hover .jump_to_options {
+  display: block;
+}
+
+.jump_to:hover .method_sections {
+  background-color: darkgreen;
+}
+
 #my_name {
   font-size: 22pt;
   color: black;
