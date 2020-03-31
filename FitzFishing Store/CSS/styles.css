@@ -42,6 +42,11 @@ h4 {
   color: orange;
 }
 
+.expert_method {
+  font-size: 22px;
+  color: darkred;
+}
+
 p {
   text-indent: 50px;
   font-size: 20px;
