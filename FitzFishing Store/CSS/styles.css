@@ -45,6 +45,7 @@ h4 {
 .expert_method {
   font-size: 22px;
   color: red;
+  text-indent: 5%;
 }
 
 p {
@@ -187,6 +188,18 @@ ul li {
 .separtor {
   width: 50%;
   float: left;
+}
+
+.special {
+  display: flex;
+  background-color: darkblue;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 5%;
+}
+
+.special_item {
+  background-color: darkblue;
 }
 
 .method_sections {
