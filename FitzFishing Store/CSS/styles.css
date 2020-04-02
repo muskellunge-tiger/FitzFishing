@@ -306,7 +306,7 @@ footer {
     text-indent: 0px;
     text-align: center;
   }
-  table {
+  table, .rank_table {
     width: 100%;
   }
   video {
