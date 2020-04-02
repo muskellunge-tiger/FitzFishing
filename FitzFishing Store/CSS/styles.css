@@ -258,6 +258,12 @@ ul li {
   float: right;
 }
 
+.lmb_img {
+  width: 500px;
+  height: 275px;
+  float: right;
+}
+
 .rank_table {
   width: 45%;
 }
@@ -318,7 +324,7 @@ footer {
     text-indent: 0px;
     text-align: center;
   }
-  table, .rank_table {
+  table {
     width: 100%;
   }
   video {
@@ -326,6 +332,12 @@ footer {
   }
   .special, .expert, h4 {
     padding-left: 15%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .rank_table {
+    width: 100%;
   }
 }
 
@@ -340,6 +352,20 @@ footer {
   .trout_img {
     width: 250px;
     height: 150px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .lmb_img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .lmb_img {
+    width: 100%;
+    height: 300px;
   }
 }
 
@@ -359,6 +385,10 @@ footer {
     height: 150px;
   }
   .trout_img {
+    width: 100%;
+    height: 200px;
+  }
+  .lmb_img {
     width: 100%;
     height: 200px;
   }
