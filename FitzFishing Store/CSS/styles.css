@@ -253,10 +253,12 @@ ul li {
 .rank_head {
   text-align: center;
   font-weight: bold;
+  font-size: 16pt;
 }
 
 .rank_data {
   text-align: center;
+  font-size: 14pt;
 }
 
 #my_name {
