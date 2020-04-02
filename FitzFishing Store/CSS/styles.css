@@ -248,7 +248,13 @@ ul li {
 
 .tiger_img {
   width: 300px;
-  height: 300;
+  height: 300px;
+  float: right;
+}
+
+.brown_img {
+  width: 350px;
+  height: 200px;
   float: right;
 }
 
@@ -330,6 +336,13 @@ footer {
   }
 }
 
+@media (max-width: 800px) {
+  .brown_img {
+    width: 250px;
+    height: 150px;
+  }
+}
+
 @media (max-width: 500px) {
   .footer_img {
     display: none;
@@ -344,6 +357,10 @@ footer {
   .tiger_img {
     width: 150px;
     height: 150px;
+  }
+  .brown_img {
+    width: 100%;
+    height: 200px;
   }
 }
 
