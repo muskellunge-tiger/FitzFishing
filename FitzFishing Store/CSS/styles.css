@@ -246,6 +246,19 @@ ul li {
   background-color: darkgreen;
 }
 
+.rank_table {
+  width: 25%;
+}
+
+.rank_head {
+  text-align: center;
+  font-weight: bold;
+}
+
+.rank_data {
+  text-align: center;
+}
+
 #my_name {
   font-size: 22pt;
   color: black;
