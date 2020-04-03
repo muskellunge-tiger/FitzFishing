@@ -10,6 +10,7 @@ h1 {
   background-image: radial-gradient(orange, red, black);
   margin: 0;
   padding: 0;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
@@ -17,6 +18,7 @@ h2 {
   text-align: center;
   font-size: 55px;
   background-image: radial-gradient(orange, red, black);
+  font-family: 'Libre Baskerville', serif;
 }
 
 .methods {
@@ -30,6 +32,7 @@ h2 {
 h3 {
   color: white;
   font-size: 28px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .species {
@@ -41,6 +44,7 @@ h4 {
   font-size: 22px;
   color: orange;
   text-indent: 5%;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .expert_method {
@@ -53,6 +57,7 @@ p {
   text-indent: 50px;
   font-size: 20px;
   color: white;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .nav_logo {
@@ -118,6 +123,7 @@ img {vertical-align: middle;}
 table {
   border-collapse: collapse;
   width: 50%;
+  font-family: 'Libre Baskerville', serif;
 }
 td, th {
   border: 1px solid green;
@@ -161,6 +167,7 @@ tr:nth-child(even) {
 
 .home_tables_data {
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 ul {
@@ -169,6 +176,7 @@ ul {
   font-size: 20px;
   padding: 20px;
   width: 50%;
+  font-family: 'Quicksand', sans-serif;
 }
 
 ul li {
@@ -277,6 +285,7 @@ ul li {
 .rank_data {
   text-align: center;
   font-size: 14pt;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #my_name {
