@@ -1,0 +1,132 @@
+body {
+  background-image: radial-gradient(orange, red, black);
+}
+
+.topnav {
+  background-color: black;
+  display: flex;
+}
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+    background-color: blue;
+    color: red;
+}
+.topnav a.active {
+  background-color: orange;
+  color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .topnav {
+    flex-direction: column;
+  }
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 70px;
+  background-image: linear-gradient(green, blue);
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  font-size: 60px;
+  background-image: linear-gradient(green, blue);
+  font-family: 'Libre Baskerville', serif;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 40px;
+    max-width: 500px;
+  }
+}
+
+p{
+  text-indent: 50px;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  color: blue;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+  color: limegreen;
+}
+.overall_stats table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.overall_stats td, th {
+  border: 1px solid green;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
+
+.overall_stats tr:nth-child(odd) {
+  background-color: black;
+}
+.overall_stats tr:nth-child(even) {
+  background-color: grey;
+}
+
+.overall_table_heads {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .overall_stats {
+    display: none;
+  }
+}
+
+#my_name {
+  font-size: 22pt;
+  color: black;
+}
+
+.footernav a:link {
+ color: white;
+}
+.footernav a:visited {
+ color: orange;
+}
+.footernav a:hover {
+ color: red;
+}
+
+footer {
+ background-image: linear-gradient(green, blue);
+ text-align: center;
+ padding: 14px 16px;
+}
+
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
+}
