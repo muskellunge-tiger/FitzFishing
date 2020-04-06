@@ -21,7 +21,7 @@ h2 {
   font-family: 'Libre Baskerville', serif;
 }
 
-.methods {
+.methods, .spinner_spoon {
   font-size: 55px;
   text-align: left;
   background-image: none;

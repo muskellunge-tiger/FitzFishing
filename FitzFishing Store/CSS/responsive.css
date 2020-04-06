@@ -103,6 +103,9 @@
   #intro {
     font-size: 48px;
   }
+  .spinner_spoon {
+    font-size: 42px;
+  }
 }
 
 @media screen and (max-width: 400px) {
