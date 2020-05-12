@@ -46,7 +46,7 @@
   color: red;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
   footer {
     display: none;
   }

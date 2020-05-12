@@ -10,6 +10,12 @@ h5 {
   color: limegreen;
 }
 
+.graph_imgs {
+  width: 49%;
+  height: 500px;
+  margin-left: .5%;
+}
+
 ul {
   background-color: black;
   color: white;

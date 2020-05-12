@@ -1,17 +1,3 @@
 .strawberry_past {
   font-size: 55px;
 }
-
-footer {
-  position: absolute;
-  width: 100%;
-  bottom: 10px;
-}
-
-@media screen and (max-width: 500px) {
-  footer {
-   position: static;
-   width: 90.5%;
-   bottom: 0;
-  }
-}
