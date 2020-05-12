@@ -1,67 +1,5 @@
-body {
-  background-image: radial-gradient(orange, red, black);
-}
-
-#my_name {
-  font-size: 22pt;
-  color: black;
-}
-
-.topnav {
-  background-color: black;
-  display: flex;
-}
-.topnav a {
-  float: left;
-  color: red;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-.topnav a:hover {
-    background-color: blue;
-    color: red;
-}
-.topnav a.active {
-  background-color: orange;
-  color: red;
-}
-
- .footernav a:link {
-  color: white;
-}
-.footernav a:visited {
-  color: orange;
-}
- .footernav a:hover {
-  color: red;
-}
- footer {
-  background-image: linear-gradient(green, blue);
-  text-align: center;
-  padding: 14px 16px;
-}
-
-h1 {
-  color: red;
-  text-align: center;
-  font-size: 70px;
-  background-image: linear-gradient(green, blue);
-  font-family: 'Libre Baskerville', serif;
-}
-
-p {
-  text-indent: 50px;
-  font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
-}
-
-h2 {
-  color: blue;
-  text-align: center;
-  font-size: 35px;
-  font-family: 'Libre Baskerville', serif;
+#year_select {
+  font-size: 50px;
 }
 
 .years a {
@@ -85,24 +23,31 @@ h2 {
 
 .years a:hover {
   background-color: blue;
-  color: red;
+  color: white;
 }
 
-@media screen and (max-width: 500px) {
-  .topnav {
-    flex-direction: column;
-  }
+.rating_slow {
+  color: lightblue;
+}
+
+.rating_fair {
+  color: yellow;
+}
+
+.rating_average {
+  color: white;
+}
+
+.rating_good {
+  color: limegreen;
+}
+
+.rating_hot {
+  color: red;
 }
 
 @media (max-width: 500px) {
   footer {
     display: none;
-  }
-}
-
-@media (max-width: 500px) {
-  .years_1 {
-    flex-direction: column;
-    align-items: center;
   }
 }

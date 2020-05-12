@@ -1,47 +1,21 @@
-body {
-  background-image: radial-gradient(limegreen, green, blue);
-  color: white;
-}
-
-#my_name {
-  font-size: 22pt;
-  color: black;
-}
-
 #closure {
   text-indent: 0;
 }
 
 #closure_bold {
   font-size: 27px;
-  color: black;
+  color: red;
 }
 
-.footernav a:link {
- color: white;
-}
-.footernav a:visited {
-  color: orange;
-}
-.footernav a:hover {
- color: red;
-}
-footer {
- background-image: linear-gradient(green, blue);
- text-align: center;
- padding: 14px 16px;
-}
-
-h1, #strawberry_head {
- color: blue;
- text-align: center;
- font-size: 70px;
- background-image: radial-gradient(yellow, orange, red, black);
- font-family: 'Libre Baskerville', serif;
+#strawberry_head {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 45px;
   font-family: 'Libre Baskerville', serif;
@@ -60,26 +34,33 @@ h4 {
 }
 
 h5 {
+  color: limegreen;
   font-size: 20px;
   text-indent: 25px;
 }
 
 h6 {
+  color: lightgrey;
   text-indent: 25px;
   font-size: 18px;
 }
 
-p {
-  text-indent: 50px;
+ol {
+  padding-left: 5%;
+}
+
+li {
+  color: white;
   font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
+  margin: 30px;
+  font-style: italic;
 }
 
 .lake_data table {
   border-collapse: collapse;
   width: 100%;
 }
-.lake_data_2018, .lake_data_2019 td, th {
+.lake_data_2018, .lake_data_2019, td{
   border: 1px solid green;
   text-align: center;
   padding: 8px;
@@ -93,16 +74,9 @@ tr:nth-child(even) {
   background-color: grey;
 }
 
- table {
+table {
   border-collapse: collapse;
   width: 40%;
-}
- td, th {
-  border: 1px solid green;
-  text-align: center;
-  padding: 8px;
-  color: white;
-  font-size: 17px;
 }
 
 .lake_name {
@@ -125,23 +99,5 @@ tr:nth-child(even) {
 }
 
 #bite_color {
-  color: black;
-}
-
-@media (max-width: 500px) {
-  #jasons_muskie {
-    display: none;
-  }
-}
-
-@media (max-width: 800px) {
-  .year_img {
-    display: none;
-  }
-}
-
-@media (max-width: 450px) {
-  #strawberry_head {
-    font-size: 55px;
-  }
+  color: red;
 }

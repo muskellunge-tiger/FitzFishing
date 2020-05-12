@@ -1,0 +1,85 @@
+h3 {
+  color: red;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 32px;
+}
+
+* {box-sizing: border-box;}
+.All-Time Biggest Fish {display: none;}
+img {vertical-align: middle;}
+.slideshow-container {
+  max-width: 1200px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+
+.dots {
+  text-align: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: white;
+}
+
+#disclaimer {
+  color: red;
+  text-indent: 0px;
+  font-size: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+td, th {
+  border: 1px solid green;
+  text-align: left;
+  padding: 8px;
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: black;
+}
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+.home_tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.home_tables_head {
+  text-align: center;
+  font-size: 26pt;
+  color: white;
+  width: 943px;
+}
+
+.home_tables_header {
+  text-align: center;
+  color: white;
+  font-size: 16pt;
+}
+
+.home_tables_content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 14pt;
+}
+
+.home_tables_data {
+  text-align: center;
+}

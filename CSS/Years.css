@@ -1,54 +1,28 @@
-body {
-  background-image: radial-gradient(orange, red, black);
-}
-
-#my_name {
-  font-size: 22pt;
-  color: black;
-}
-
-.footernav a:link {
- color: white;
-}
-.footernav a:visited {
-  color: orange;
-}
-.footernav a:hover {
- color: red;
-}
-footer {
- background-image: linear-gradient(green, blue);
- text-align: center;
- padding: 14px 16px;
- font-weight: normal;
-}
-
-h1 {
- color: red;
- text-align: center;
- font-size: 70px;
- background-image: linear-gradient(green, blue);
- font-family: 'Libre Baskerville', serif;
-}
-
-h2 {
-  color: red;
-  text-align: center;
-  font-size: 60px;
-  background-image: linear-gradient(green, blue);
-  font-family: 'Libre Baskerville', serif;
-}
-
 h3 {
   font-weight: bold;
   font-size: 30px;
-  color: green;
+  color: white;
   font-family: 'Libre Baskerville', serif;
 }
 
 h5 {
   font-size: 20px;
   color: limegreen;
+}
+
+ul {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  width: 50%;
+  font-family: 'Quicksand', sans-serif;
+  list-style-type: none;
+}
+
+ul li {
+  background: grey;
+  margin: 5px;
 }
 
 .rating_slow {
@@ -64,37 +38,10 @@ h5 {
 }
 
 .rating_good {
-  color: green;
+  color: limegreen;
 }
 
 .rating_hot {
-  color: red;
-}
-
-p{
- text-indent: 50px;
- font-size: 20px;
- font-family: 'Quicksand', sans-serif;
-}
-
-.topnav {
-  background-color: black;
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  color: red;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-.topnav a:hover {
-    background-color: blue;
-    color: red;
-}
-.topnav a.active {
-  background-color: orange;
   color: red;
 }
 
@@ -122,18 +69,6 @@ img {vertical-align: middle;}
   background-color: white;
 }
 
-@media only screen and (max-width: 1200px) {
-    .slideshow-container {
-      max-width: 1100px;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .slideshow-container, .dots {
-      display: none;
-    }
-}
-
 table {
   border-collapse: collapse;
   width: 100%;
@@ -155,20 +90,8 @@ tr:nth-child(even) {
   font-size: 28px;
 }
 
-@media (max-width: 500px) {
-  #jasons_muskie {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 1125px) {
   table {
     display: none;
-  }
-}
-
-@media (max-width: 850px) {
-  .rating_hot {
-    color: black;
   }
 }

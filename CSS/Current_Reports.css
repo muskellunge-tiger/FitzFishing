@@ -1,73 +1,7 @@
-body {
-  background-image: radial-gradient(orange, red, black);
-}
-
-h1 {
-  color: red;
-  text-align: center;
-  background-image: linear-gradient(green, blue);
-  font-size: 70px;
-  font-family: 'Libre Baskerville', serif;
-}
-
-h2 {
-  color: black;
-  text-align: center;
-  font-size: 45px;
-  font-family: 'Libre Baskerville', serif;
-}
-
 h3 {
   color: limegreen;
   font-size: 35px;
   font-family: 'Libre Baskerville', serif;
-}
-
-p {
-  text-indent: 50px;
-  font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.topnav {
-  background-color: black;
-  display: flex;
-}
-.topnav a {
-  float: left;
-  color: red;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-.topnav a:hover {
-  background-color: blue;
-  color: red;
-}
-.topnav a.active {
-  background-color: orange;
-  color: red;
-}
-
-#my_name {
-  font-size: 22pt;
-  color: black;
-}
-
-.footernav a:link {
- color: white;
-}
-.footernav a:visited {
-  color: orange;
-}
-.footernav a:hover {
- color: red;
-}
-footer {
- background-image: linear-gradient(green, blue);
- text-align: center;
- padding: 14px 16px;
 }
 
 .report_past {
@@ -99,22 +33,4 @@ footer {
   text-align: center;
   color: white;
   font-size: 40px;
-}
-
-@media screen and (max-width: 500px) {
-  .topnav {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 500px) {
-  #jasons_muskie {
-    display: none;
-  }
-}
-
-@media (max-width: 400px) {
-  .report_past {
-    width: 300px;
-  }
 }

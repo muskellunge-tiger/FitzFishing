@@ -1,45 +1,17 @@
-body {
-  background-image: radial-gradient(orange, red, black);
-}
-h1 {
-  color: red;
-  text-align: center;
-  font-size: 70px;
-  background-image: linear-gradient(green, blue);
-  font-family: 'Libre Baskerville', serif;
-}
-p{
-  text-indent: 50px;
-  font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
-}
-
-#my_name {
-  font-size: 22pt;
-  color: black;
-}
-
-.footernav a:link {
- color: white;
-}
-.footernav a:visited {
- color: orange;
-}
-.footernav a:hover {
- color: red;
+.strawberry_past {
+  font-size: 55px;
 }
 
 footer {
- background-image: linear-gradient(green, blue);
- text-align: center;
- padding: 14px 16px;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
 }
 
-@media (max-width: 500px) {
-  #jasons_muskie {
-    display: none;
-  }
-  .strawberry_past {
-    font-size: 55px;
+@media screen and (max-width: 500px) {
+  footer {
+   position: static;
+   width: 90.5%;
+   bottom: 0;
   }
 }

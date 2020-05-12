@@ -1,0 +1,119 @@
+/* Home Page(index.html) */
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    max-width: 500px;
+  }
+  h2 {
+    font-size: 40px;
+    max-width: 500px;
+  }
+  p, h3 {
+    text-indent: 0px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+    .slideshow-container {
+      max-width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .slideshow-container, .dots {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  table {
+    width: 100%;
+  }
+}
+
+/* Yearly Reports(Yearly_Reports.html) */
+
+@media screen and (max-width: 500px) {
+  .topnav {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .years_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Each Year(2018.html, 2019.html) */
+
+@media screen and (max-width: 600px) {
+  ul {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+/* Location Select(Lakes.html, Lakes_2019.html) */
+
+@media (max-width: 500px) {
+  .lakes_2018_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Location Stats & Strategies */
+
+@media (max-width: 800px) {
+  .year_img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  video {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  #strawberry_head {
+    font-size: 55px;
+  }
+}
+
+/* Current Reports(Current_Reports.html) */
+
+@media (max-width: 400px) {
+  .report_past {
+    width: 300px;
+  }
+}
+
+/* Overall Stats(Overall_Stats.html) */
+
+@media only screen and (max-width: 1250px) {
+  .overall_stats {
+    display: none;
+  }
+}
+
+/* On all pages */
+
+@media screen and (max-width: 500px) {
+  .topnav {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  #jasons_muskie {
+    display: none;
+  }
+}
