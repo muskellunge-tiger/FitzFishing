@@ -52,27 +52,13 @@ ul li {
 }
 
 * {box-sizing: border-box;}
-.Top Biggest Fish {display: none;}
+.Top_Biggest_Fish {display: none;}
 img {vertical-align: middle;}
 .slideshow-container {
   max-width: 1300px;
+  height: auto;
   position: relative;
-  margin: auto;
-}
-.dots {
-  text-align: center;
-}
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: grey;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active {
-  background-color: white;
+  margin-left: 325px;
 }
 
 table {

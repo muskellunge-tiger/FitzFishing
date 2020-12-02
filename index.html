@@ -252,27 +252,22 @@ specific section dedicated to 2017. New data will be added at the end of every y
   <img id="jasons_muskie" src="All-Time Biggest Fish/DSC03357.JPG" style="width:400px;height: 200px;">
   <img src="1026171825.jpg" style="width:250px;height:200px; align:right">
 </footer>
-  <script>
-var slideIndex = 0;
-showSlides();
+<script>
+  var slideIndex = 0;
+  showSlides();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("All-Time Biggest Fish");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("Top Biggest Fish");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000);
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000);
-}
 </script>
-
 </body>
 </html>
