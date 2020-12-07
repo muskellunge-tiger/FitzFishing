@@ -71,20 +71,6 @@
       <img src="All-Time Biggest Fish/DSC04225.JPG" style="width:1200px;height:700px">
   </div>
 </div>
-
-  <div class="dots">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div>
-
   <h2>Introduction</h2>
   <p>
     I am a fisherman from Utah with over ten years of fishing experience. I have
@@ -253,21 +239,20 @@ specific section dedicated to 2017. New data will be added at the end of every y
   <img src="1026171825.jpg" style="width:250px;height:200px; align:right">
 </footer>
 <script>
-  var slideIndex = 0;
-  showSlides();
+var slideIndex = 0;
+showSlides();
 
-  function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("Top Biggest Fish");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 2000);
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("All-Time Biggest Fish");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);
+}
 </script>
 </body>
 </html>
