@@ -55,10 +55,10 @@ ul li {
 .Top_Biggest_Fish {display: none;}
 img {vertical-align: middle;}
 .slideshow-container {
-  max-width: 1300px;
+  max-width: 1200px;
   height: auto;
   position: relative;
-  margin-left: 325px;
+  margin: auto;
 }
 
 table {
