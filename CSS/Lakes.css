@@ -101,3 +101,11 @@ table {
 #bite_color {
   color: red;
 }
+
+.strawberry_link {
+  color: white;
+}
+
+.strawberry_link:hover {
+  color: limegreen;
+}
