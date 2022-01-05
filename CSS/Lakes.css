@@ -56,6 +56,23 @@ li {
   font-style: italic;
 }
 
+.strategies {
+  margin-top: 10px;
+}
+
+.list_heading {
+  font-size: 24px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.list_items {
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .lake_data table {
   border-collapse: collapse;
   width: 100%;
